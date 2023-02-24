@@ -1,0 +1,103 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "actividad",
+    "dateExported": "2023-02-24T16:18:43.925Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "120795b8-3dab-4890-bfa1-d6b3b90b0419",
+            "colId": "4ec96693-eced-4dd3-846a-ef1a19a8f4e7",
+            "containerId": "",
+            "name": "[::1]:8000/agregar",
+            "url": "[::1]:8000/agregar",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-24T16:17:45.956Z",
+            "modified": "2023-02-24T16:17:45.956Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "arroz"
+                    },
+                    {
+                        "name": "precio",
+                        "value": "1000"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c0783461-4b9e-4e4d-b29e-8e833c3af5cc",
+            "colId": "4ec96693-eced-4dd3-846a-ef1a19a8f4e7",
+            "containerId": "",
+            "name": "[::1]:8000/eliminar/1",
+            "url": "[::1]:8000/eliminar/5",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-02-24T16:18:02.651Z",
+            "modified": "2023-02-24T16:18:02.651Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0b3aebaf-c6d6-4504-814e-1d933744c99b",
+            "colId": "4ec96693-eced-4dd3-846a-ef1a19a8f4e7",
+            "containerId": "",
+            "name": "[::1]:8000/editar/1",
+            "url": "[::1]:8000/editar/5",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-02-24T16:18:14.339Z",
+            "modified": "2023-02-24T16:18:14.339Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "nombre",
+                        "value": "aditado"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "5b36a225-2413-4988-a647-a5938eed6710",
+            "colId": "4ec96693-eced-4dd3-846a-ef1a19a8f4e7",
+            "containerId": "",
+            "name": "[::1]:8000/1",
+            "url": "[::1]:8000/5",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-02-24T16:18:22.468Z",
+            "modified": "2023-02-24T16:18:22.468Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8f9795a5-62db-4fa4-b8e7-61dbdb6958a1",
+            "colId": "4ec96693-eced-4dd3-846a-ef1a19a8f4e7",
+            "containerId": "",
+            "name": "[::1]:8000/mostrar",
+            "url": "[::1]:8000/mostrar",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-02-24T16:18:29.091Z",
+            "modified": "2023-02-24T16:18:29.091Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
